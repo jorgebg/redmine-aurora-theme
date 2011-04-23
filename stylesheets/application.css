@@ -1,0 +1,193 @@
+/**
+ * Aurora stylesheet for Redmine
+ * author: Jorge Barata Gonzalez - http://www.jorgebg.com/about
+ * v0.0.1
+ */
+
+
+@import url(../../../stylesheets/application.css);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+
+body {
+font-family:Verdana, sans-serif;
+}
+
+h1,h2,h3,h4 {
+font-family:Ubuntu, "Trebuchet MS", Verdana, sans-serif;
+}
+
+#top-menu {
+background:#000;
+height:1.8em;
+font-size:.8em;
+}
+
+#header {
+height:8em;
+color:#f8f8f8;
+position:relative;
+background:url(../images/bg.png) repeat 0 0;
+text-shadow:1px 1px 1px #000;
+margin:0;
+padding:0;
+}
+
+#header h1 a.root,#header h1 a.ancestor {
+text-shadow:1px 1px 1px #000;
+color:#DD4295;
+font-size:100%;
+}
+
+#header h1 a:hover {
+text-decoration:none;
+}
+
+#content .tabs ul li a {
+-khtml-border-radius:12px 12px 0 0;
+-moz-border-radius:17px 17px 0 0;
+-webkit-border-radius:12px 12px 0 0;
+border-radius:12px 12px 0 0;
+text-shadow:1px 1px 1px #FFF;
+}
+
+#content .tabs ul li a.selected {
+color:#2A5685;
+text-shadow:1px 1px 1px #DFBBBB;
+}
+
+#main-menu {
+width:100%;
+left:0;
+}
+
+#main-menu ul {
+#width:2000px;
+width:100%;
+border-bottom:1px solid #D2D2D2;
+position:absolute;
+bottom:0;
+margin:0;
+}
+
+#main-menu ul li a {
+font-family:Ubuntu, Verdana, sans-serif;
+font-size:105%;
+background:#FFF url(../images/buttons.png) 0 0 repeat-x;
+border:1px solid #E4E4E4;
+#border-bottom:none;
+border-left-color:#D2D2D2;
+border-right-color:#D2D2D2;
+text-shadow:1px 1px 1px #FFF;
+color:#2A5685;
+cursor:pointer;
+font-weight:700;
+text-align:center;
+-khtml-border-radius:15px 15px 0 0;
+-moz-border-radius:20px 20px 0 0;
+-webkit-border-radius:15px 15px 0 0;
+border-radius:15px 15px 0 0;
+position:relative;
+margin-bottom:-1px;
+border-bottom:1px solid #D2D2D2;
+}
+
+#main-menu ul li a:hover {
+background-position:0 100%;
+color:#fff;
+text-shadow:1px 1px 1px #2C346B;
+}
+
+#main-menu ul li a.selected,#main-menu ul li a.selected:hover {
+background-color:#fff;
+color:#c61a1a;
+text-shadow:1px 1px 1px #BF9B9B;
+}
+
+#main-menu ul li a.selected {
+border-bottom-color:#FFF;
+margin-left:6px;
+}
+
+#quick-search {
+background-color:#000;
+-webkit-border-radius:0 0 0 15px;
+-moz-border-radius:0 0 0 15px;
+border-radius:0 0 0 15px;
+color:#FFF;
+text-shadow:1px 1px 1px #ddd;
+padding:10px;
+}
+
+.box {
+-moz-box-shadow:5px 5px 5px #DFD3D1;
+-webkit-box-shadow:5px 5px 5px #DFD3D1;
+box-shadow:5px 5px 5px #DFD3D1;
+-webkit-border-radius:15px;
+-moz-border-radius:15px;
+border-radius:15px;
+}
+
+#main h1,h2,h3 {
+text-shadow:1px 1px 1px #EFCBCB;
+#text-shadow:1px 1px 1px #BF9B9B;
+}
+
+#header h1 {
+height:64px;
+padding-left:80px;
+background-image:url(../images/logo.png);
+background-size:64px;
+background-repeat:no-repeat;
+background-position:5px 5px;
+color:#ff;
+text-shadow:1px 1px 1px #000;
+line-height:64px;
+}
+
+.priority-5 {
+background:#eaa;
+}
+
+.priority-4 {
+background:#fed;
+}
+
+.priority-3 {
+background:#ffd;
+}
+
+.priority-2 {
+background:#f6f6f6;
+}
+
+.priority-1 {
+background:#dff;
+}
+
+div.wiki pre {
+white-space:pre-wrap;
+word-wrap:break-word;
+}
+
+input[type=submit],.button {
+background:#FFF url(../images/buttons.png) 0 0 repeat-x;
+border:1px solid #E4E4E4;
+border-bottom:1px solid #B4B4B4;
+border-left-color:#D2D2D2;
+border-right-color:#D2D2D2;
+text-shadow:1px 1px 1px #FFF;
+color:#2A5685;
+cursor:pointer;
+font-weight:700;
+text-align:center;
+margin-bottom:1em;
+margin-right:1em;
+-khtml-border-radius:15px;
+-moz-border-radius:20px;
+-webkit-border-radius:15px;
+border-radius:15px;
+padding:4px 17px;
+}
+
+input[type=submit]:hover,input[type=submit]:active {
+color:#c61a1a;
